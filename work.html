@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work — Xianzhong Liang (SEEGIN)</title>
+<meta name="description" content="Projects: ACT for household robots (migration and incremental-control adaptation) and a logistics robot on Ascend Atlas 200I DK A2.">
+<meta name="author" content="Xianzhong Liang">
+<meta name="theme-color" content="#0A0C10">
+<meta name="color-scheme" content="dark light">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Work — Xianzhong Liang (SEEGIN)">
+<meta property="og:description" content="Projects: ACT for household robots and a logistics robot on Ascend Atlas 200I DK A2.">
+<meta property="og:url" content="https://seegin.github.io/work.html">
+<meta property="og:image" content="https://seegin.github.io/assets/avatar.jpg">
+<meta property="og:image:alt" content="Portrait of Xianzhong Liang">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1080">
+<meta property="profile:first_name" content="Xianzhong">
+<meta property="profile:last_name" content="Liang">
+<meta name="twitter:card" content="summary">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+
+<link rel="canonical" href="https://seegin.github.io/work.html">
+<link rel="alternate" hreflang="en" href="https://seegin.github.io/work.html">
+<link rel="alternate" hreflang="zh-CN" href="https://seegin.github.io/work.html?lang=zh">
+<link rel="alternate" hreflang="x-default" href="https://seegin.github.io/work.html">
+<link rel="icon" type="image/jpeg" href="assets/avatar.jpg">
+<link rel="apple-touch-icon" href="assets/avatar.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+
+<script>
+(() => {
+  try {
+    const params = new URLSearchParams(location.search);
+    const savedTheme = params.get('theme') || localStorage.getItem('theme');
+    const savedLang = params.get('lang') || localStorage.getItem('lang');
+    document.documentElement.dataset.theme = savedTheme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.lang = savedLang || 'en';
+    document.documentElement.lang = savedLang === 'zh' ? 'zh-CN' : 'en';
+  } catch (_) {
+    document.documentElement.dataset.theme = 'dark';
+    document.documentElement.dataset.lang = 'en';
+  }
+})();
+</script>
+</head>
+<body>
+
+<noscript><div class="jsnote">JavaScript disabled · language/theme switching unavailable — 未启用 JavaScript：中英文与主题切换不可用。</div></noscript>
+
+<a class="skip-link" href="#content"><span class="i18n-en">Skip to content</span><span class="i18n-zh">跳到正文</span></a>
+
+<div class="page">
+
+<!-- ══════════ RAIL ══════════ -->
+<aside class="rail">
+  <img class="avatar" src="assets/avatar.jpg" alt="Portrait of Xianzhong Liang" width="64" height="64" decoding="async">
+  <div class="rname">Xianzhong Liang<br><span>SEEGIN</span></div>
+  <div class="rrole">
+    CS @ <b>Xiamen University</b><br>
+    → <b>ISCAS</b>, UCAS · 2026
+  </div>
+
+  <div class="prefs">
+    <div class="segmented" role="group" aria-label="Language">
+      <button type="button" data-lang-option="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang-option="zh" aria-pressed="false">中</button>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch to light theme">
+      <span aria-hidden="true">☼</span>
+    </button>
+  </div>
+
+  <nav class="rnav" aria-label="Section navigation">
+    <a href="index.html"><span class="n">00</span><span class="i18n-en">Home</span><span class="i18n-zh">首页</span></a>
+    <a href="work.html" class="on" aria-current="page"><span class="n">01</span><span class="i18n-en">Work</span><span class="i18n-zh">项目</span></a>
+    <a href="notes.html"><span class="n">02</span><span class="i18n-en">Notes</span><span class="i18n-zh">写作</span></a>
+    <a href="about.html"><span class="n">03</span><span class="i18n-en">About</span><span class="i18n-zh">关于</span></a>
+  </nav>
+
+  <div class="rlinks">
+    <a href="https://github.com/SEEGIN" rel="me">GITHUB</a>
+    <a href="mailto:xianzliang@foxmail.com"><span class="i18n-en">EMAIL</span><span class="i18n-zh">邮箱</span></a>
+    <button type="button" id="copy-qq" data-copy="2814823196" title="Copy QQ: 2814823196">QQ</button>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+  </div>
+</aside>
+
+<!-- ══════════ MAIN ══════════ -->
+<main class="main" id="content">
+
+  <!-- ═══ 01 WORK ═══ -->
+  <section id="work">
+    <div class="sh"><span class="n">01</span><h2><span class="i18n-en">Work</span><span class="i18n-zh">项目</span></h2><span class="rule"></span></div>
+
+    <article class="card">
+      <div class="card-h">
+        <h3><span class="i18n-en">ACT for Household Robots — Migration &amp; Adaptation</span><span class="i18n-zh">家务机器人 ACT — 迁移与增量控制适配</span></h3>
+        <div class="zh"><span class="i18n-en">Undergraduate thesis · Xiamen University</span><span class="i18n-zh">《家务机器人 ACT 算法的优化与实现》· 本科毕业设计</span></div>
+        <div class="meta">
+          <span class="hi">2025 – 2026</span>
+          <span>Imitation Learning</span><span>MuJoCo / robosuite</span>
+          <span>Robomimic</span><span>PyTorch</span><span>DINOv2</span>
+          <span><span class="i18n-en">Source · private</span><span class="i18n-zh">代码 · 私有整理中</span></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="lab"><span class="i18n-en">Problem</span><span class="i18n-zh">问题</span></div>
+        <p><span class="i18n-en">The original ACT assumes <b>absolute joint control</b>. After migration to Robomimic's
+        <b>incremental operational-space control</b> (Delta OSC), the semantics no longer align: the same numeric delta means
+        something different at each state, so temporal ensembling across prediction windows can amplify open-loop error.</span>
+        <span class="i18n-zh">原版 ACT 建立在<b>绝对关节控制</b>之上，迁移到 Robomimic 的<b>增量操作空间控制</b>（Delta OSC）后语义失配：
+        同一数值增量在不同当前状态下物理意义不同，导致时序集成（TE）的跨窗口平均反而放大开环误差。</span></p>
+      </div>
+
+      <div class="row">
+        <div class="lab"><span class="i18n-en">Approach</span><span class="i18n-zh">做法</span></div>
+        <p><span class="i18n-en">First, I connected the full path:
+        <code>MuJoCo/robosuite → multi-camera + qpos → IK / ARCore demonstrations → Robomimic HDF5 → training → rollout → skill scheduling</code>.
+        Then I adapted each mismatch: Sim-to-Sim alignment; zero-padding for asymmetric state/action dimensions without inventing physical signals;
+        Masked L1 and KL tuning; <b>RHC</b> in place of TE (predict 100 / execute 8 / replan); a frozen <b>DINOv2</b> backbone for visual OOD;
+        and stabilization plus Home reset between skills.</span>
+        <span class="i18n-zh">先打通整条链路 —
+        <code>MuJoCo/robosuite → 多相机 + qpos → IK / ARCore 示教 → Robomimic HDF5 → 训练 → rollout → 技能调度</code>
+        再逐项适配：Sim-to-Sim 环境对齐、Zero-Padding 处理状态/动作维度不对称（不伪造物理信息）、
+        Masked L1 + KL 调节避免有效动作信号被平均稀释、用 <b>RHC</b>（预测 100 步 / 执行 8 步 / 滚动重规划）替代 TE、
+        冻结 <b>DINOv2</b> 主干替换 ResNet18 应对视觉 OOD、技能切换加缓冲与 Home 复位。</span></p>
+      </div>
+
+      <div class="row">
+        <div class="lab"><span class="i18n-en">Evidence</span><span class="i18n-zh">证据</span></div>
+        <div class="ev">
+          <div><span class="num">25 → 45 → 100%</span><span class="d2">Open-loop → TE → RHC (stride=8)
+            <span class="scope s-ok"><span class="i18n-en">Same-task comparison, complete rollout records</span><span class="i18n-zh">同任务对照，完整 rollout 记录</span></span></span></div>
+          <div><span class="num">20 / 20</span><span class="d2"><span class="i18n-en">lift_ph with a frozen DINOv2 backbone</span><span class="i18n-zh">lift_ph，冻结 DINOv2 主干</span>
+            <span class="scope s-ok"><span class="i18n-en">Formal validation, strong evidence</span><span class="i18n-zh">正式验证，强证据</span></span></span></div>
+          <div><span class="num">40 → 94%</span><span class="d2"><span class="i18n-en">Skill switch: direct → stabilized transition</span><span class="i18n-zh">技能切换：直接切换 → 缓冲切换</span>
+            <span class="scope s-ok"><span class="i18n-en">Hierarchical-system evaluation</span><span class="i18n-zh">分层系统验证</span></span></span></div>
+          <div><span class="num">90% / 80%</span><span class="d2">can_ph / square_ph
+            <span class="scope"><span class="i18n-en">Representative peaks, reported conservatively</span><span class="i18n-zh">代表性峰值，保守口径</span></span></span></div>
+          <div><span class="num">40 – 60%</span><span class="d2"><span class="i18n-en">transport_ph dual-arm coordination</span><span class="i18n-zh">transport_ph 双臂协同</span>
+            <span class="scope"><span class="i18n-en">Preliminary and unstable</span><span class="i18n-zh">初步可行，不稳定</span></span></span></div>
+        </div>
+      </div>
+
+      <div class="row bd">
+        <div class="lab"><span class="i18n-en">Boundary</span><span class="i18n-zh">边界</span></div>
+        <p><span class="i18n-en"><code>tool_hang_ph</code> remained at <b>0%</b> across multiple batches: high-precision contact is a clear boundary,
+        and lower training loss does not imply task success. All results are from simulation. Real deployment still requires a hardware control stack,
+        hand-eye and frame calibration, dynamics identification, and safety limits. This is a <b>migration and incremental-control adaptation</b> of ACT,
+        not a new algorithm.</span>
+        <span class="i18n-zh"><code>tool_hang_ph</code> 多批次 <b>0%</b> —— 高精度接触任务是本工作的能力边界，训练 loss 下降不等于任务成功。
+        全部结论基于仿真；策略未做实机验证，真实部署还需要厂商控制栈、手眼与坐标系标定、动力学参数标定和安全限幅。
+        本工作是 ACT 的<b>迁移实现与增量控制适配</b>，不是提出新算法。</span></p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-h">
+        <h3><span class="i18n-en">Logistics Robot on Ascend Atlas 200I DK A2</span><span class="i18n-zh">基于昇腾 Atlas 200I DK A2 的物流机器人</span></h3>
+        <div class="zh"><span class="i18n-en">National undergraduate innovation project · Project lead</span><span class="i18n-zh">国家级大创 · 项目负责人</span></div>
+        <div class="meta">
+          <span class="hi">2023.12 – 2025.01</span>
+          <span>ROS</span><span>Cartographer SLAM</span><span>OpenCV / OCR</span>
+          <span>Mecanum</span><span>Team of 4</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="lab"><span class="i18n-en">Problem</span><span class="i18n-zh">问题</span></div>
+        <p><span class="i18n-en">Automate parcel recognition, grasping, and sorting on an edge-computing platform. Two practical bottlenecks were
+        map drift in long corridors and the arm's limited reachable workspace on a fixed chassis.</span>
+        <span class="i18n-zh">在边缘算力平台上做仓储包裹的自动识别、抓取与分拣。两个实际卡点：长走廊场景下建图漂移，
+        以及固定底盘导致机械臂有效抓取范围受限。</span></p>
+      </div>
+
+      <div class="row">
+        <div class="lab"><span class="i18n-en">Approach</span><span class="i18n-zh">做法</span></div>
+        <p><span class="i18n-en">Integrated the system with ROS. I chose <b>Cartographer</b> over Gmapping for more reliable loop closure in corridors,
+        fused two LiDARs, configured global and local planners in <code>move_base</code>, and adopted a <b>mecanum chassis</b> for omnidirectional reach.
+        The perception path used OpenCV and OCR for tilted parcels, followed by visual-guided manipulation with a Dobot arm.</span>
+        <span class="i18n-zh">ROS 全栈集成；建图选 <b>Cartographer</b> 而非 Gmapping——理由是长走廊环境闭环检测更可靠；
+        <b>双激光雷达融合</b>提升定位精度，<code>move_base</code> 配置全局 / 局部规划器；
+        底盘换成<b>麦克纳姆轮</b>换取全向移动与更大作业半径；
+        感知侧用 OpenCV + OCR 处理快件<b>倾斜摆放</b>下的识别，再按品类分拣；执行端为视觉引导的越疆机械臂。</span></p>
+      </div>
+
+      <div class="row">
+        <div class="lab"><span class="i18n-en">Role</span><span class="i18n-zh">职责</span></div>
+        <p><span class="i18n-en">Led a four-person team and owned the arm-vision path plus chassis SLAM/navigation, including hardware debugging
+        across LiDAR, IMU, encoders, and the ROS deployment.</span>
+        <span class="i18n-zh">项目负责人（4 人）：整体统筹与分工，个人负责机械臂视觉与底盘 SLAM / 导航，
+        含激光雷达、IMU、编码器的硬件调试与 ROS 部署。</span></p>
+      </div>
+
+      <div class="row bd">
+        <div class="lab"><span class="i18n-en">Boundary</span><span class="i18n-zh">边界</span></div>
+        <p><span class="i18n-en">The system <b>did not fully meet the original proposal</b>. Navigation robustness and grasp success remained unstable
+        in real stacked scenes. It was my first complete encounter with the gap between a lab algorithm and a deployed system,
+        and it shaped the direction I chose afterward.</span>
+        <span class="i18n-zh">项目功能<b>未完全达到立项预期</b>，导航鲁棒性和抓取成功率在真实堆叠场景下仍不稳定。
+        这是我第一次完整体会到「实验室算法」与「真实场景落地」之间的差距，也直接决定了后面两年的方向选择。</span></p>
+      </div>
+    </article>
+
+    <ul class="mini">
+      <li>
+        <span class="t">UNIX Systems Programming</span><span class="y">2024</span>
+        <span class="d"><span class="i18n-en">Built a small shell and a <code>myfind</code> directory-tree walker; compared synchronous and asynchronous <code>write</code> throughput.</span><span class="i18n-zh">从零实现简易 shell 与 <code>myfind</code> 目录树遍历；做过同步 / 异步 <code>write</code> 的吞吐对比实验。</span></span>
+      </li>
+      <li>
+        <span class="t">Cyberry Potter — Electromagic Wand</span><span class="y">2024</span>
+        <span class="d"><span class="i18n-en">An embedded TinyML exercise in MCU + IMU gesture recognition, with on-device deployment and real-time constraints.</span><span class="i18n-zh">MCU + IMU 手势识别的嵌入式 TinyML 实践，接触端侧模型部署与实时性约束。</span></span>
+      </li>
+      <li>
+        <span class="t">Vision Coursework — Crosswalk &amp; Gem Recognition</span><span class="y">2023</span>
+        <span class="d"><span class="i18n-en">Two classical-vision and classification exercises that became preparation for the later logistics-robot perception stack.</span><span class="i18n-zh">学科实践中的两个传统视觉 + 分类任务，是后来大创感知模块的前置练习。</span></span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ═══ 02 STACK ═══ -->
+  <section id="stack">
+    <div class="sh"><span class="n">02</span><h2><span class="i18n-en">Stack</span><span class="i18n-zh">技术</span></h2><span class="rule"></span></div>
+    <div class="stack">
+      <div><span class="k"><span class="i18n-en">Languages</span><span class="i18n-zh">语言</span></span><span class="v">C · C++ · Python · Shell</span></div>
+      <div><span class="k"><span class="i18n-en">Robotics</span><span class="i18n-zh">机器人</span></span><span class="v">ROS · MuJoCo · robosuite / Robomimic · Cartographer · move_base · IK / OSC</span></div>
+      <div><span class="k"><span class="i18n-en">Learning</span><span class="i18n-zh">学习</span></span><span class="v">PyTorch · ACT · CVAE · DETR · DINOv2 · behavior cloning</span></div>
+      <div><span class="k"><span class="i18n-en">Perception</span><span class="i18n-zh">感知</span></span><span class="v">OpenCV · OCR · visual-guided grasping</span></div>
+      <div><span class="k"><span class="i18n-en">Systems</span><span class="i18n-zh">系统</span></span><span class="v">Linux / UNIX syscalls · OS · compilers · architecture · databases</span></div>
+      <div><span class="k"><span class="i18n-en">Hardware</span><span class="i18n-zh">硬件</span></span><span class="v">Ascend Atlas 200I DK A2 · mecanum chassis · LiDAR / IMU · Dobot arm · Raspberry Pi · MCU</span></div>
+      <div><span class="k"><span class="i18n-en">Tooling</span><span class="i18n-zh">工具</span></span><span class="v">Git · LaTeX · HDF5 · Vim / VS Code</span></div>
+    </div>
+  </section>
+
+  <footer>
+    <span><span class="i18n-en">Built with plain HTML &amp; CSS. No framework, no tracker.</span><span class="i18n-zh">纯 HTML / CSS 构建。无框架，无追踪。</span></span>
+    <span class="foot-lang"><a href="work.html?lang=en">EN</a> · <a href="work.html?lang=zh">中文</a></span>
+    <span>© 2026 Xianzhong Liang <span class="foot-upd">· <span class="i18n-en">updated</span><span class="i18n-zh">最近更新</span> 2026.08</span></span>
+  </footer>
+
+</main>
+</div>
+
+<script id="page-i18n" type="application/json">
+{"zh":{"title":"项目 — 梁献中（SEEGIN）","description":"家务机器人 ACT（迁移与增量控制适配）与基于昇腾 Atlas 200I DK A2 的物流机器人，含证据与边界。"}}
+</script>
+<script src="assets/site.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Private planning and source material: never publish these with the website.
+/01_*.md
+/02_*.md
+/03_*.md
+/*.pdf
+/profile/
+
+# Local operating-system files.
+.DS_Store
+Thumbs.db

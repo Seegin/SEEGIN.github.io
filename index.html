@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xianzhong Liang (SEEGIN) | Robot Systems</title>
+<meta name="description" content="Computer science graduate from Xiamen University, joining ISCAS, UCAS in 2026. Working on the engineering layer between learning algorithms and robots that actually move.">
+<meta name="author" content="Xianzhong Liang">
+<meta name="theme-color" content="#0A0C10">
+<meta name="color-scheme" content="dark light">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Xianzhong Liang (SEEGIN) | Robot Systems">
+<meta property="og:description" content="Robot systems, imitation learning, and the plumbing in between.">
+<meta property="og:url" content="https://seegin.github.io/">
+<meta property="og:image" content="https://seegin.github.io/assets/avatar.jpg">
+<meta property="og:image:alt" content="Portrait of Xianzhong Liang">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1080">
+<meta property="profile:first_name" content="Xianzhong">
+<meta property="profile:last_name" content="Liang">
+<meta name="twitter:card" content="summary">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+
+<link rel="canonical" href="https://seegin.github.io/">
+<link rel="alternate" hreflang="en" href="https://seegin.github.io/">
+<link rel="alternate" hreflang="zh-CN" href="https://seegin.github.io/?lang=zh">
+<link rel="alternate" hreflang="x-default" href="https://seegin.github.io/">
+<link rel="icon" type="image/jpeg" href="assets/avatar.jpg">
+<link rel="apple-touch-icon" href="assets/avatar.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Xianzhong Liang",
+  "alternateName": "SEEGIN",
+  "url": "https://seegin.github.io/",
+  "image": "https://seegin.github.io/assets/avatar.jpg",
+  "email": "mailto:xianzliang@foxmail.com",
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Xiamen University" },
+  "sameAs": [ "https://github.com/SEEGIN" ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+
+<script>
+(() => {
+  try {
+    const params = new URLSearchParams(location.search);
+    const savedTheme = params.get('theme') || localStorage.getItem('theme');
+    const savedLang = params.get('lang') || localStorage.getItem('lang');
+    document.documentElement.dataset.theme = savedTheme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.lang = savedLang || 'en';
+    document.documentElement.lang = savedLang === 'zh' ? 'zh-CN' : 'en';
+  } catch (_) {
+    document.documentElement.dataset.theme = 'dark';
+    document.documentElement.dataset.lang = 'en';
+  }
+})();
+</script>
+</head>
+<body>
+
+<noscript><div class="jsnote">JavaScript disabled · language/theme switching unavailable — 未启用 JavaScript：中英文与主题切换不可用。</div></noscript>
+
+<a class="skip-link" href="#content"><span class="i18n-en">Skip to content</span><span class="i18n-zh">跳到正文</span></a>
+
+<div class="page">
+
+<!-- ══════════ RAIL ══════════ -->
+<aside class="rail">
+  <img class="avatar" src="assets/avatar.jpg" alt="Portrait of Xianzhong Liang" width="64" height="64" decoding="async">
+  <div class="rname">Xianzhong Liang<br><span>SEEGIN</span></div>
+  <div class="rrole">
+    CS @ <b>Xiamen University</b><br>
+    → <b>ISCAS</b>, UCAS · 2026
+  </div>
+
+  <div class="prefs">
+    <div class="segmented" role="group" aria-label="Language">
+      <button type="button" data-lang-option="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang-option="zh" aria-pressed="false">中</button>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch to light theme">
+      <span aria-hidden="true">☼</span>
+    </button>
+  </div>
+
+  <nav class="rnav" aria-label="Section navigation">
+    <a href="index.html" class="on" aria-current="page"><span class="n">00</span><span class="i18n-en">Home</span><span class="i18n-zh">首页</span></a>
+    <a href="work.html"><span class="n">01</span><span class="i18n-en">Work</span><span class="i18n-zh">项目</span></a>
+    <a href="notes.html"><span class="n">02</span><span class="i18n-en">Notes</span><span class="i18n-zh">写作</span></a>
+    <a href="about.html"><span class="n">03</span><span class="i18n-en">About</span><span class="i18n-zh">关于</span></a>
+  </nav>
+
+  <div class="rlinks">
+    <a href="https://github.com/SEEGIN" rel="me">GITHUB</a>
+    <a href="mailto:xianzliang@foxmail.com"><span class="i18n-en">EMAIL</span><span class="i18n-zh">邮箱</span></a>
+    <button type="button" id="copy-qq" data-copy="2814823196" title="Copy QQ: 2814823196">QQ</button>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+  </div>
+</aside>
+
+<!-- ══════════ MAIN ══════════ -->
+<main class="main" id="content">
+
+  <header class="hero">
+    <p class="eyebrow">Robot systems · imitation learning</p>
+    <h1>Xianzhong Liang <span>/ SEEGIN</span></h1>
+    <p class="tagline">
+      <span class="i18n-en">I work on the <span class="k">engineering layer</span> between a learning algorithm
+      and a robot that actually moves.</span>
+      <span class="i18n-zh">我关注学习算法与真正运动起来的机器人之间，那一层常被忽略的<span class="k">系统工程</span>。</span>
+    </p>
+    <p class="tagsub">
+      <span class="i18n-en">I care less about making a model look clever in isolation than about what happens when it enters a system:
+      where the data came from, what the action means, and how failure is recorded.</span>
+      <span class="i18n-zh">我不太关心让一个脱离系统的模型显得聪明。我更在意它进入系统以后：
+      数据从哪来、动作究竟代表什么，以及失败有没有被如实记录。</span>
+    </p>
+    <div class="principle">
+      <div><span class="pn">01</span><b><span class="i18n-en">Trace the whole path before tuning the model.</span><span class="i18n-zh">先把整条链路跑通，再谈调参。</span></b></div>
+      <div><span class="pn">02</span><b><span class="i18n-en">Keep the evidence beside the claim.</span><span class="i18n-zh">结论旁边放证据，数字旁边写口径。</span></b></div>
+      <div><span class="pn">03</span><b><span class="i18n-en">Leave the failed case in the report.</span><span class="i18n-zh">失败案例不删，它定义能力边界。</span></b></div>
+    </div>
+  </header>
+
+  <!-- ═══ 00 NOW ═══ -->
+  <section id="now">
+    <div class="sh"><span class="n">00</span><h2><span class="i18n-en">Now</span><span class="i18n-zh">近况</span></h2><span class="rule"></span><span class="date">2026.08</span></div>
+    <ul class="now">
+      <li><span><span class="i18n-en">Completed my undergraduate thesis on ACT for household robots and graduated from Xiamen University in 2026.06.</span><span class="i18n-zh">刚完成本科毕设《家务机器人 ACT 算法的优化与实现》，2026.06 从厦门大学计算机系毕业。</span></span></li>
+      <li><span><span class="i18n-en">Joining the <b>Institute of Software, Chinese Academy of Sciences</b> in fall 2026, with an interest in systems software and robotics infrastructure.</span><span class="i18n-zh">2026 年秋季入学 <b>中国科学院软件研究所</b>，方向偏底层系统软件与机器人系统支撑。</span></span></li>
+      <li><span><span class="i18n-en">Turning 20+ thesis-defense notes into a smaller set of public technical notes.</span><span class="i18n-zh">在整理毕设期间写的 20+ 份技术手册，准备把其中一部分公开出来。</span></span></li>
+    </ul>
+  </section>
+
+  <!-- ═══ INDEX ═══ -->
+  <section id="index">
+    <div class="sh"><h2><span class="i18n-en">Index</span><span class="i18n-zh">导览</span></h2><span class="rule"></span></div>
+    <div class="idx">
+      <a class="idx-card" href="work.html">
+        <span class="idx-t"><span class="i18n-en">Work</span><span class="i18n-zh">项目</span> →</span>
+        <span class="idx-d"><span class="i18n-en">Two main projects with evidence and boundaries, plus coursework.</span><span class="i18n-zh">两个主项目（含证据与边界）+ 课程实践。</span></span>
+      </a>
+      <a class="idx-card" href="notes.html">
+        <span class="idx-t"><span class="i18n-en">Notes</span><span class="i18n-zh">写作</span> →</span>
+        <span class="idx-d"><span class="i18n-en">Published guide and thesis-defense notes, updating continuously.</span><span class="i18n-zh">已公开的经验帖与整理中的答辩笔记。</span></span>
+      </a>
+      <a class="idx-card" href="about.html">
+        <span class="idx-t"><span class="i18n-en">About</span><span class="i18n-zh">关于</span> →</span>
+        <span class="idx-d"><span class="i18n-en">The path so far: XMU → ISCAS, and the principles I work by.</span><span class="i18n-zh">从厦大到软件所的轨迹，与我的工作准则。</span></span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <span><span class="i18n-en">Built with plain HTML &amp; CSS. No framework, no tracker.</span><span class="i18n-zh">纯 HTML / CSS 构建。无框架，无追踪。</span></span>
+    <span class="foot-lang"><a href="?lang=en">EN</a> · <a href="?lang=zh">中文</a></span>
+    <span>© 2026 Xianzhong Liang <span class="foot-upd">· <span class="i18n-en">updated</span><span class="i18n-zh">最近更新</span> 2026.08</span></span>
+  </footer>
+
+</main>
+</div>
+
+<script id="page-i18n" type="application/json">
+{"zh":{"title":"梁献中（SEEGIN）| 机器人系统","description":"厦门大学计算机专业毕业生，2026 年入学中国科学院软件研究所。关注学习算法与真正运动起来的机器人之间的系统工程。"}}
+</script>
+<script src="assets/site.js"></script>
+
+</body>
+</html>
